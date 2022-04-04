@@ -1,0 +1,36 @@
+.container{
+    width: 90%;
+    margin: 100px auto;
+    position: relative;
+    background-color: #dddddd4b;
+    text-align: center;
+    color:#888;
+}
+.fetch .line1{
+     display: flex;
+     justify-content: space-between; 
+}
+.featch1{
+    display: flex;
+    align-items: center;  /*with flex*/
+}
+.icon i{
+   display: block;
+   width: 40px;
+   height: 40px;
+   background-color: #fff;
+   box-shadow:inset 0px 0px 3px 1px #a7a0a03b ; 
+   line-height: 40px;
+   border-radius:50% ;
+   color: #bf4040;
+   border: 1px solid #fff;
+   margin-right: 10px;
+}
+.icon i:hover{
+   background-color:#bf4040 ; 
+   color: #fff;
+   cursor: pointer;
+}
+.content{
+    text-align: left;
+}
